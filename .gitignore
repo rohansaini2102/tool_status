@@ -3,8 +3,13 @@
 /.pnp
 .pnp.js
 
+# Package lock files
+package-lock.json
+yarn.lock
+
 # Production build
 /build
+/dist
 
 # Misc
 .DS_Store
@@ -21,3 +26,10 @@ yarn-error.log*
 # IDE files
 .vscode/
 .idea/
+*.sublime-*
+*.swp
+*.swo
+
+# Cache
+.cache/
+.eslintcache
